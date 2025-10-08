@@ -7,17 +7,19 @@ The app demonstrates the basic setup of a React project, JSX rendering, and bund
 
 ## 🧪 Project Structure
 
-First-ReactApp/
+
+/ (root)
 ├── public/
-│ └── (static assets, index.html, etc.)
+│ └── (static assets, index.html, favicon, etc.)
 ├── src/
-│ ├── App.jsx
-│ ├── index.js
-│ └── styles.css
-├── .gitignore
-├── package.json
-├── package-lock.json
-└── README.md
+│ ├── App.jsx # Root React component
+│ ├── index.js # Entry point that renders App
+│ └── styles.css # Global styling
+├── .gitignore # Files and folders to ignore in Git
+├── package.json # Project dependencies and scripts
+├── package-lock.json # Locked dependency versions
+└── README.md # Project documentation
+
 
 
 - **public/** — Static files served directly (HTML, icons, etc.)  
@@ -45,7 +47,6 @@ To set up and run this project locally, follow these steps:
    ```bash
    npm run dev
 
-This will start the Vite dev server (often accessible at http://localhost:3000 or similar).
 This will start the Vite dev server (often accessible at http://localhost:3000 or similar).
 
 4. Build for production
