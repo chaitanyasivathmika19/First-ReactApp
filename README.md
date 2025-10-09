@@ -8,17 +8,18 @@ The app demonstrates the basic setup of a React project, JSX rendering, and bund
 ## 🧪 Project Structure
 
 
-/ (root)
-├── public/
-│ └── (static assets, index.html, favicon, etc.)
-├── src/
-│ ├── App.jsx # Root React component
-│ ├── index.js # Entry point that renders App
-│ └── styles.css # Global styling
-├── .gitignore # Files and folders to ignore in Git
-├── package.json # Project dependencies and scripts
-├── package-lock.json # Locked dependency versions
-└── README.md # Project documentation
+/ (root)  
+│── public/  
+│   └── (static assets, index.html, favicon, etc.)  
+│── src/  
+│   ├── App.jsx          # ⚛️ Root React component  
+│   ├── index.js         # 🚀 Entry point that renders App  
+│   └── styles.css       # 🎨 Global styling  
+│── .gitignore           # 🚫 Files and folders to ignore in Git  
+│── package.json         # 📦 Project dependencies and scripts  
+│── package-lock.json    # 🔒 Locked dependency versions  
+│── README.md            # 📘 Project documentation  
+
 
 
 
