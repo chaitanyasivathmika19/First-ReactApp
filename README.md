@@ -21,16 +21,6 @@ The app demonstrates the basic setup of a React project, JSX rendering, and bund
 │── README.md            # 📘 Project documentation  
 
 
-
-
-- **public/** — Static files served directly (HTML, icons, etc.)  
-- **src/** — React source code files (JSX, CSS)  
-- **App.jsx** — Root functional component  
-- **index.js** — Entry point (renders `<App />` to DOM)  
-- **styles.css** — Basic styling (if any)  
-- **.gitignore** — Files/folders excluded from Git  
-- **package.json / package-lock.json** — Project dependencies and metadata  
-
 ---
 
 ## 🚀 Getting Started
@@ -54,7 +44,7 @@ This will start the Vite dev server (often accessible at http://localhost:3000 o
    ```bash
    npm run build
 
-
+---
 # 🎯 What This Project Demonstrates
 
 - Basic React setup using **Vite** (faster bundling, modern tooling)  
